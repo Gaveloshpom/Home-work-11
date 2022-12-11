@@ -10,7 +10,7 @@ show all: shows all users in Book
 good bye/close/exit: stops program
 delete phone Name Phone: deletes {Phone} of user with name {Name}
 page A B : shows users with index from A to B,
-birthday Name Birthday_date: add {birthday_date} to {Name},
+birthday Name Birthday_date(yyyy.mm.dd): add {birthday_date} to {Name},
 days left Name: shows how many days left for {Name}`s  birthday,
 """
 def input_error(func):
