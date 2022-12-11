@@ -32,10 +32,6 @@ class Phones(Field):
             self._value = int(value)
 
 
-
-
-
-
 class Birthday(Field):
     @Field.value.setter
     def value(self, new_value: str):
